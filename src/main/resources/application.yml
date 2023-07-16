@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://jwtsecurity.cc5udlaoucjq.us-east-2.rds.amazonaws.com:5432/postgres
+    driver-class-name: org.postgresql.Driver
+    username: prabeshbuzz01
+    password: Vanguard2080
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect

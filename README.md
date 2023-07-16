@@ -1,2 +1,0 @@
-# SpringSecurity
-Learning Spring Security
